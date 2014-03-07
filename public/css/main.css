@@ -1,0 +1,13 @@
+.navbar-form {
+    margin-top:-8px;
+}
+
+ul {
+    list-style: none;
+}
+
+#tip {
+    font-size: 14px;
+    display: none;
+    color: red;
+}

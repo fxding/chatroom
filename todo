@@ -1,0 +1,20 @@
+chatroom: 
+	there is a public room for all user. 
+	and a private room for just two user, 
+	users can send message in the public room, all users can this message. 
+	two users can create a provate room, they can send message to each other.
+	users can change their name, and this event will broadcast to all user.
+	all users' names must be different.
+	
+
+1. init chatroom (create user session, give user a system name)
+2. send message: 
+		web -> back server -> broadcast to all user -> display message
+3. change name: 
+		web -> back server -> create change name message 
+		    -> broadcast to all user -> display message
+		
+4. create private room:
+		web -> back server -> create a room id -> reply create ok and ID
+		    -> input room id -> give the id to other -> other input room id
+			-> let's enjoy the talk :].
